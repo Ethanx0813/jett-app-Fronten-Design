@@ -1,0 +1,299 @@
+jett-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.jett-logo {
+  display: flex;
+  align-items: center;
+}
+
+.dash-lines {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 10px;
+}
+
+.dash-line {
+  width: 30px;
+  height: 1px;
+  background-color: black;
+  margin: 1px 0;
+}
+
+.jett-header-text {
+  font-weight: bold;
+  color: red;
+}
+
+.profile-icon {
+  font-size: 20px;
+}
+
+/* Image Section */
+/* Add this to secondPageStyles.css */
+
+/* Styling for the image section */
+.image-section {
+  position: relative;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.shop-now-button-red {
+  margin-top: 20px;
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+.main-image {
+  max-width: 100%;
+  height: auto;
+} /* secondPageStyles.css */
+/* secondPageStyles.css */
+
+/* ... (Other styles) ... */
+
+.circle-container {
+  position: absolute;
+  right: 35%;
+  top: 35%;
+  transform: translate(50%, -50%);
+  width: 130px;
+  height: 130px;
+  background: radial-gradient(circle at center, #ff9999, #ff0000);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px;
+  position: absolute;
+  left: 0%; /* Adjust the percentage value as needed */
+  /* Or use right: 10%; for moving it to the right */
+}
+/* ... (Other styles) ... */
+
+/* ... (Other styles) ... */
+
+.shop-now-button-container {
+  position: absolute;
+  bottom: 150px; /* Adjust the value to move the button up or down */
+  left: 70%; /* Center the button horizontally */
+  transform: translateX(-50%); /* Center the button using transform */
+}
+
+.shop-now-button-red {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ... (Other styles) ... */
+
+
+/* How It Works Section */
+.how-it-works-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.how-it-works-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.step-text-left {
+  flex: 11;
+  padding: 0 20px;
+  text-align: left;
+  margin-bottom: 350px;
+  color: red; /* Add margin at the bottom */
+}
+
+.step p {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.step-image-left {
+  max-width: 50%;
+  height: auto;
+  margin-right: 20px;
+}
+.step-text-left {
+  float: 1px;
+  padding: 0 20px;
+  margin-bottom: 350px;
+}
+.step-image-right {
+  max-width: 50%;
+  height: auto;
+  margin-left: 20px;
+}
+.step-text-left {
+  flex: 1;
+  padding: 0 20px;
+  text-align: left;
+  margin-bottom: 350px;
+  color: red; /* Add margin at the bottom */
+}
+
+/* Shop Now Button */
+.shop-now-button-red {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Jett Benefits Section */
+.benefits-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.benefits-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.benefits-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.benefits-list {
+  list-style-type: disc;
+  text-align: left;
+  margin-left: 30px;
+  padding-left: 0;
+}
+
+.benefits-list-item {
+  margin-bottom: 10px;
+}
+
+/* Frequently Asked Questions Section */
+.faq-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.faq-list {
+  list-style-type: none;
+  text-align: left;
+  padding-left: 0;
+}
+
+.faq-list-item {
+  margin-bottom: 10px;
+}
+
+/* Red Borderline */
+.red-borderline {
+  border-top: 2px solid red;
+  margin-top: 30px;
+}
+
+/* Bottom Section */
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-top: 30px;
+}
+
+.bottom-left {
+  font-weight: bold;
+}
+
+.bottom-right {
+  font-size: 24px;
+}
+
+/* Bottom Buttons */
+.bottom-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bottom-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* YourComponent.css */
+.bottom-buttons {
+  text-align: center;
+  margin-top: 20px;
+  background-color: white; /* Add this line to set the background color */
+}
+
+.bottom-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white; /* Set text color to white */
+}
+.jett-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
