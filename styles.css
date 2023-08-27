@@ -1,0 +1,130 @@
+/* styles.css */
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 400px;
+  background-color: #fff;
+}
+
+.jett-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.jett-logo {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Add margin to create space */
+}
+
+/* styles.css */
+
+/* ... Other styles ... */
+
+.dash-lines {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px; /* Add margin to create space */
+}
+
+/* ... Rest of your styles ... */
+
+.dash-line {
+  width: 30px; /* Width of dashed lines */
+  height: 1px;
+  background-color: black; /* Color of dashed lines */
+  margin: 2px 0;
+}
+
+.jett-header-text {
+  color: red;
+}
+
+.profile-icon {
+  font-size: 24px;
+}
+
+.personal-details {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.input-group select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.next-button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+// Inside your component's CSS file (styles.css)
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-weight: bold;
+}
+
+.input-group input,
+.input-group select {
+  border: none;
+  border-bottom: 2px solid #ccc; /* Add an underline style */
+  padding: 5px 0;
+  font-size: 16px;
+}
+
+.input-group select {
+  appearance: none; /* Remove default select arrow */
+  background-color: transparent; /* Add this to make the background transparent */
+}
+
+.input-group input:focus,
+.input-group select:focus {
+  outline: none;
+  border-bottom-color: #007bff; /* Change color when focused */
+}
+/* Add this style to your existing CSS file or create a new one */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}
